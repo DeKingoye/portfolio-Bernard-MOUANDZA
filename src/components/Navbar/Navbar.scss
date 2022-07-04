@@ -1,0 +1,118 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    @media (min-width: 667px) {
+        display: block;
+        min-width: 15%;
+        text-align: right;
+        padding-top: 15px;
+       .burger {
+           display: none;
+       }
+    }
+}
+
+nav {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: black;
+    z-index: 1000;
+    transform: translateX(200%);
+    transition: all 1s ease-in-out;
+    text-align: right;
+    padding: 15px;
+
+    @media (min-width: 667px) {
+        position: initial;
+        transform: initial;
+        .closed {
+            display: none;
+            font-size: 180%;
+        }
+    }
+
+
+    &.active {
+        transform: translateX(0);
+    }
+
+    .closed {
+        font-size: 210%;
+        .close {
+            padding: 3px 14px;
+            border: 1px solid white;
+            border-radius: 12px;
+        }
+    }
+
+    ul {
+        margin-top: 20vh;
+        li {
+            padding: 20px 0;
+            display: flex;
+            justify-content: flex-end;
+            &:hover{
+                cursor: pointer;
+                a {
+                    color: white;
+                    &::after  {
+                        content: "";
+                        display: block;
+                        margin-top: 5px;
+                        background: #DC4540;
+                        width: 55%;
+                        height: 5px;
+                    }
+                }
+            }
+
+            a {
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.44);
+                font-size: 130%;
+                display: flex;
+                width: fit-content;
+                flex-direction: column;
+                align-items: flex-end;
+                @media (min-width: 667px) {
+                    font-size: 110%;
+                }
+        
+                &.active {
+                    color: white;
+                }
+
+                &.active::after  {
+                    content: "";
+                    display: block;
+                    margin-top: 5px;
+                    background: #DC4540;
+                    width: 55%;
+                    height: 5px;
+                }
+            }
+        }
+    }
+}
+
+.social__network {
+    font-size: 200%;
+
+    a {
+        margin-right: 17px;
+    }
+}
+
+.burger__img {
+    width: 50px;
+}
+

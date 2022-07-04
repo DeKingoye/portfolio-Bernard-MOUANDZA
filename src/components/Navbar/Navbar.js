@@ -1,40 +1,69 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './Navbar.scss';
 import {Routes} from '../../routes'
+import imgMenu from "../../assets/img/menu.svg";
+import { useState } from 'react';
 
-function Navbar() {
-    const menu=[
+function Navbar(props) {
+    const location = useLocation();
+    const locationKey = location.pathname;
+
+    const [show, setShow] = useState(false);
+
+    const icons=[
         {
-            to: Routes.Home.path, 
-            name: 'Accueil'
+            to: "https://github.fr/", 
+            name: 'fa-brands fa-github'
         }, 
         {
-            to: Routes.About.path, 
-            name: 'A propos'
+            to: "https://linkedin.fr/", 
+            name: 'fa-brands fa-linkedin-in'
         }, 
         {
-            to: Routes.Skills.path, 
-            name: 'Compétences'
-        }, 
-        {
-            to: Routes.Projects.path, 
-            name: 'Projets'
-        }, 
+            to: "#", 
+            name: 'fa-solid fa-file-pdf'
+        }
     ]
 
+    const open = (e)=> {
+        e.preventDefault();
+        setShow(true);
+    }
+
+    const close = (e)=> {
+        e.preventDefault();
+        setShow(false);
+    }
+
   return (
-    <nav>
-        <ul>
+    <header>
+        <div className="social__network">
             {
-                menu.map((item, i)=>(
-                    <li>
-                        <Link to={item.to}>{item.name}</Link>
-                    </li>
+                icons.map((item, i)=>(
+                    <Link to={{ pathname: item.to}} target="_blank" key={i}><i className={""+item.name}></i></Link>
                 ))
             }
-        </ul>
-
-    </nav>
+        </div>
+        <Link to="" onClick={open} className="burger">
+            <img src={imgMenu}  className="burger__img" />
+        </Link>
+        <nav className={show?"active":""}>
+            <div className="closed">
+                <Link to="" onClick={close} className="close">
+                    <i className="fa-solid fa-xmark"></i>                
+                </Link>
+            </div>
+            <ul>
+                {
+                    props.menu.map((item, i)=>(
+                        <li key={i}>
+                            <Link to={item.to} className={item.to === locationKey?"active":""}>{item.name}</Link>
+                        </li>
+                    ))
+                }
+            </ul>
+        </nav>
+    </header>
   );
 }
 

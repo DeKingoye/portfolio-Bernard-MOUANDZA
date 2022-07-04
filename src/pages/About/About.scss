@@ -1,0 +1,132 @@
+.about {
+    position: relative;
+    height: 87%;
+    @media (min-width: 667px) {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.desc {
+    @media (min-width: 667px) {
+        height: 90%;
+    }
+}
+
+.container__profile {
+    position: fixed;
+    z-index: -1;
+    background: url('../../assets/img/avatar.svg') no-repeat center center;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    @media (min-width: 667px) {
+      position: relative;
+    }
+
+    @media (max-width: 665px) {
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+    &::before{
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        background: rgba($color: #000000, $alpha: 0.7);
+        top: 0;
+        left: 0;
+    }
+}
+
+.container__quality {
+    @media (min-width: 667px) {
+        position: relative;
+        left: -6%;
+        background: black;
+        align-self: center;
+        padding: 15px 50px;
+    }
+}
+
+.quality {
+    position: relative;
+
+    @media (min-width: 667px) {
+        margin-top: 60px !important;
+    }
+
+    &__desktop {
+        display: none;
+        @media (min-width: 667px) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.contacts {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    bottom: 0;
+    text-align: left;
+    padding-left: 3%;
+    @media (min-width: 667px) {
+        margin-top: 50px;
+        position: initial;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.chevrons {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    @media (min-width: 667px) {
+        display: none;
+    }
+    
+    button{
+        border: none;
+        background: rgba($color: #000000, $alpha: 0.7);
+        color: white;
+        font-size: 200%;
+    }
+}
+
+.slick-slider {
+    @media (min-width: 667px) {
+        display: none !important;  
+    }
+}
+
+.slick-dots {
+    margin-top: 40px;
+    position: initial !important;
+    li{
+        margin: 0 8px;
+        &.slick-active {
+            button{
+                &:before{
+                    color: #DC4540 !important;
+                }
+            }
+        }
+    }
+
+    button{
+        &:before{
+            font-size: 25px !important;
+            color: #6A3836 !important;
+            opacity: 1 !important;
+        }
+    }
+}

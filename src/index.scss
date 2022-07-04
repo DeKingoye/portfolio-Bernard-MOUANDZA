@@ -13,3 +13,44 @@ body {
   background-color: black;
   color: white; 
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  color: #DC4540
+}
+
+h1, h2 {
+  font-weight: 900;
+  color: #000000;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke: 1px #fff;
+  margin: 25px 0;
+}
+
+h3, h4, h5{
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 110%;
+  font-weight: 900;
+  letter-spacing: 0.07em;
+}
+
+:is(h1, h2) span {
+  display: block;
+} 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
