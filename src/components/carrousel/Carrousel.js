@@ -10,8 +10,8 @@ function Carrousel(props) {
             <section key={i}>
               {
                 section.map((item, j)=>
-                  <div className='carrousel-track'>
-                    <div className="carrousel-slide" key={j} title={item.title}>
+                  <div className='carrousel-track' key={j}>
+                    <div className="carrousel-slide" title={item.title}>
                       <img src={item.img}/>
                     </div> 
 
