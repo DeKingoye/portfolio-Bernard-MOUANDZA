@@ -1,10 +1,10 @@
 import './Skills.scss';
 import Slider from "react-slick";
-import ListBorderTop from "components/Items/ListBorderTop"
+import ListBorderTop from "./../../components/Items/ListBorderTop"
 import { useState } from 'react';
-import Carrousel from 'components/Carrousel/Carrousel';
+import Carrousel from './../../components/Carrousel/Carrousel';
 
-import htmlImg from 'assets/img/html-5.png'
+import htmlImg from './../../assets/img/html-5.png'
 
 function Skills() {
   const knowleges = [

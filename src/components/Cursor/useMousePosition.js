@@ -1,5 +1,5 @@
 import { useEffect, useState, useContext } from "react";
-import { MouseContext } from "context/mouse-context";
+import { MouseContext } from "./../../context/mouse-context";
 
 const useMousePosition = () => {
     const [mousePosition, setMousePosition] = useState({ x: null, y: null });
