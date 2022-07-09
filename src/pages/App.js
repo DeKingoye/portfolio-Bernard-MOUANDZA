@@ -6,10 +6,10 @@ import Skills from './Skills/Skills';
 import Projects from './Projects/Projects'; 
 import Notfound from './Notfound/Notfound';
 import About from './About/About';
-import { Routes } from '../routes';
-import Navbar from '../components/Navbar/Navbar';
-import Cursor from '../components/Cursor/Cursor';
-import Direction from '../components/Direction/Direction';
+import { Routes } from 'routes';
+import Navbar from 'components/Navbar/Navbar';
+import Cursor from 'components/Cursor/Cursor';
+import Direction from 'components/Direction/Direction';
 import { TransitionGroup, CSSTransition} from 'react-transition-group';
 
 const menu=[

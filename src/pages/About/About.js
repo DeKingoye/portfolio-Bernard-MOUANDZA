@@ -2,7 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './About.scss';
 import Slider from "react-slick";
-import ListBorderTop from "../../components/Items/ListBorderTop"
+import ListBorderTop from "components/Items/ListBorderTop"
 import { useState } from "react";
 
 function About() {

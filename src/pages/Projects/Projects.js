@@ -1,4 +1,4 @@
-import Slider from '../../components/Carrousel/Slider';
+import Slider from 'components/Carrousel/Slider';
 import './Projects.scss';
 
 function Projects() {

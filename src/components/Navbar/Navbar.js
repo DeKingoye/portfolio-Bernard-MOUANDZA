@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import './Navbar.scss';
-import {Routes} from '../../routes'
-import imgMenu from "../../assets/img/menu.svg";
+import {Routes} from 'routes'
+import imgMenu from "assets/img/menu.svg";
 import { useState } from 'react';
 
 function Navbar(props) {
