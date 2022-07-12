@@ -1,6 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
 import './Navbar.scss';
-import {Url} from './../../Routes'
 import imgMenu from "./../../assets/img/menu.svg";
 import { useState } from 'react';
 

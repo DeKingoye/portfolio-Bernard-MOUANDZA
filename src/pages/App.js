@@ -1,6 +1,6 @@
 import './App.scss';
-import React, { useState, useEffect, Component } from "react";
-import {Route, Routes as Switch, useHistory, useLocation, Navigate } from "react-router-dom";
+import React from "react";
+import { Route, Routes as Switch, useLocation } from "react-router-dom";
 import Home from './Home/Home'; 
 import Skills from './Skills/Skills'; 
 import Projects from './Projects/Projects'; 
@@ -10,7 +10,7 @@ import Navbar from './../components/Navbar/Navbar';
 import Cursor from './../components/Cursor/Cursor';
 import Direction from './../components/Direction/Direction';
 import { TransitionGroup, CSSTransition} from 'react-transition-group';
-import {Url} from "./../Routes";
+import { Url } from "Routes";
 
 const menu=[
   {
