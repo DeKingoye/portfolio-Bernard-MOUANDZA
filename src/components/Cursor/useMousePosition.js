@@ -1,7 +1,7 @@
 import { useEffect, useState, useContext } from "react";
-import { MouseContext } from "./../../context/mouse-context";
+import { MouseContext } from "../../context/MouseContextProvider";
 
-const useMousePosition = () => {
+const UseMousePosition = () => {
     const [mousePosition, setMousePosition] = useState({ x: null, y: null });
     const { cursorChangeHandler } = useContext(MouseContext);
 
@@ -25,4 +25,4 @@ const useMousePosition = () => {
 
     return mousePosition;
 };
-export default useMousePosition;
+export default UseMousePosition;
