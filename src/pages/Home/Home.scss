@@ -1,0 +1,28 @@
+.home {
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+$textColor: rgba(255,255,255,0.4);
+
+
+.title {
+    position: relative;
+    top: -5%;
+    width: 100%;
+}
+
+.txt-rotate {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 115%;
+}
+
+@keyframes cursor {
+    from { border-color: $textColor; }
+    to { border-color: transparent; }
+}

@@ -1,0 +1,43 @@
+* {
+    cursor: none;
+}
+
+.ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  will-change: width, height, transform, border;
+  z-index: 999;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  background-color: white;
+
+}
+.dot {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  background-color: white;
+}
+
+.ring.hovered {
+  width: 70px;
+  height: 70px;
+  border-width: 3px;
+  cursor: pointer;
+}
