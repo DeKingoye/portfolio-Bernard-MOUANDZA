@@ -6,27 +6,27 @@ import Skills from './Skills/Skills';
 import Projects from './Projects/Projects'; 
 import Notfound from './Notfound/Notfound';
 import About from './About/About';
-import { Routes } from './../Routes';
 import Navbar from './../components/Navbar/Navbar';
 import Cursor from './../components/Cursor/Cursor';
 import Direction from './../components/Direction/Direction';
 import { TransitionGroup, CSSTransition} from 'react-transition-group';
+import {Url} from "./../Routes";
 
 const menu=[
   {
-      to: Routes.Home.path, 
+      to: Url.Home.path, 
       name: 'Accueil'
   }, 
   {
-      to: Routes.About.path, 
+      to: Url.About.path, 
       name: 'A propos'
   }, 
   {
-      to: Routes.Skills.path, 
+      to: Url.Skills.path, 
       name: 'Compétences'
   }, 
   {
-      to: Routes.Projects.path, 
+      to: Url.Projects.path, 
       name: 'Projets'
   }, 
 ];
@@ -62,12 +62,12 @@ export default ()=>{
                 exitActive: 'slide__out--active'
               }}>
             <Switch location={location}>
-              <Route exact path={Routes.About.path} element={<Page component={About}/>}/>
-              <Route exact path={Routes.Home.path} element={<Page component={Home}/>}/>
-              <Route exact path={Routes.Skills.path} element={<Page component={Skills}/>}/>
-              <Route exact path={Routes.Projects.path} element={<Page component={Projects}/>}/>
-              <Route exact path={Routes.Notfound.path} element={<Page component={Notfound}/>}/>
-              <Route path={Routes.Notfound.path} element={<Page component={Notfound}/>}/>
+              <Route exact path={Url.About.path} element={<Page component={About}/>}/>
+              <Route exact path={Url.Home.path} element={<Page component={Home}/>}/>
+              <Route exact path={Url.Skills.path} element={<Page component={Skills}/>}/>
+              <Route exact path={Url.Projects.path} element={<Page component={Projects}/>}/>
+              <Route exact path={Url.Notfound.path} element={<Page component={Notfound}/>}/>
+              <Route path={Url.Notfound.path} element={<Page component={Notfound}/>}/>
             </Switch>
           </CSSTransition>
         </TransitionGroup>
