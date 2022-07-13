@@ -11,11 +11,11 @@ function Navbar(props) {
 
     const icons=[
         {
-            to: "https://github.fr/", 
+            to: "https://github.com/DeKingoye", 
             name: 'fa-brands fa-github'
         }, 
         {
-            to: "https://linkedin.fr/", 
+            to: "https://www.linkedin.com/in/bernard-mouandza-74aa67177/", 
             name: 'fa-brands fa-linkedin-in'
         }, 
         {

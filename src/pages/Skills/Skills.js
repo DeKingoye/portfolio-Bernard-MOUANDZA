@@ -5,7 +5,13 @@ import { useState } from 'react';
 import Carrousel from './../../components/Carrousel/Carrousel';
 
 import htmlImg from './../../assets/img/html-5.png'
-
+import cssImg from './../../assets/img/css-3.png'
+import jsImg from './../../assets/img/js.png'
+import mysqlImg from './../../assets/img/mysql.png'
+import phpImg from './../../assets/img/php.png'
+import reactImg from './../../assets/img/reactjs.png'
+import nodejsImg from './../../assets/img/nodejs.png'
+import bootstrapImg from './../../assets/img/bootstrap.png'
 function Skills() {
   const knowleges = [
     {title:"DEVELOPPEMENT" , items : ["Creation des web app", "Developpement front-end", "Développement back-end"]},
@@ -14,7 +20,7 @@ function Skills() {
   ];
 
   const tools = [
-    [{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"}],
+    [{img: htmlImg, title: "HTML"},{img: cssImg, title: "CSS"},{img: jsImg, title: "JAVASCRIPT"},{img: phpImg, title: "PHP"},{img: reactImg, title: "REACTJS"},{img: nodejsImg, title: "NODEJS"},{img: bootstrapImg, title: "BOOTSTRAP"}],
     [{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"}],
   ]
 

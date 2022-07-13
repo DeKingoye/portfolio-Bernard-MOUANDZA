@@ -15,7 +15,7 @@ function About() {
   ];
 
   const contacts = [
-    {title: "email", label: "y_mouandza@gmail.com"},
+    {title: "email", label: "yannmouandza3@gmail.com"},
     {title: "role", label: "développeur web fullStack"},
     {title: "téléphone", label: "+33763443742"},
   ]

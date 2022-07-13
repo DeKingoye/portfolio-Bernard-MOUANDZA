@@ -2,7 +2,7 @@ import './Home.scss';
 import React, { useState, useEffect } from "react";
 
 function Home() {
-  const textArr = ["Yann Mouandza", "Développeur web junior", "En recherche D'alternance"];
+  const textArr = ["Bernard Yann Ordian Mouandza", "Développeur web junior", "En recherche D'alternance"];
   const maxTextIndex = textArr.length; 
   const sPerChar = 0.15; 
   const sBetweenWord = 1.5;
