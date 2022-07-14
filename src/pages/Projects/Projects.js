@@ -10,7 +10,7 @@ function Projects() {
     },
     {
       title:"CINETIC",
-      image:'https://i.postimg.cc/RhYnBf5m/er-slider.jpg',
+      image:'https://img-19.commentcamarche.net/Z9e4GjGDv9VdlRndhmvEqFsbk3Y=/480x270/smart/6246fc94bad94dda9c611a1fdc87dd76/ccmcms-commentcamarche/23887428.jpg',
       link: "#"
     },
     {
@@ -19,13 +19,13 @@ function Projects() {
       link: "#"
     },
     {
-      title:"TINKUY",
+      title:"KOY",
       image:'https://www.culture-nutrition.com/wp-content/uploads/2019/04/sante-publique-programme.jpg',
       link: "https://dekingoyebaby.netlify.app/"
     },
     {
       title:"CALCULATRICE",
-      image:'https://i.postimg.cc/RhYnBf5m/er-slider.jpg',
+      image:'https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Ffac.2F2020.2F08.2F10.2F5aeb6c6e-fdc1-44cd-8cb3-afbde82c28c4.2Ejpeg/1200x1200/quality/80/crop-from/center/tout-savoir-sur-la-calculatrice.jpeg',
       link: "#"
     },
     {

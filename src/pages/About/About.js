@@ -45,9 +45,12 @@ function About() {
         <div className="col-sm-5 col-12 container__profile"></div>
         <div className="col-sm-7 col-12 container__quality">
           <p className="text-justify">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          Je suis à la recherche d'un stage de 3 à 4 mois à partir
+          de juillet et que je souhaiterais convertir en alternance
+          dès le mois d'octobre pour mes deux ans en MASTERE CTO et TECH Lead à HETIC.
+          Mon objectif à terme est de devenir 
+          un expert en développement, capable de participer à toutes 
+          les étapes du cycle de vie d’un projet 
           </p>
 
           <div className="mt-1 quality">

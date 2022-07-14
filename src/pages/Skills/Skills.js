@@ -12,6 +12,9 @@ import phpImg from './../../assets/img/php.png'
 import reactImg from './../../assets/img/reactjs.png'
 import nodejsImg from './../../assets/img/nodejs.png'
 import bootstrapImg from './../../assets/img/bootstrap.png'
+import figmaImg from './../../assets/img/figma.png'
+import wordpressImg from './../../assets/img/wordpress.png'
+
 function Skills() {
   const knowleges = [
     {title:"DEVELOPPEMENT" , items : ["Creation des web app", "Developpement front-end", "Développement back-end"]},
@@ -21,7 +24,7 @@ function Skills() {
 
   const tools = [
     [{img: htmlImg, title: "HTML"},{img: cssImg, title: "CSS"},{img: jsImg, title: "JAVASCRIPT"},{img: phpImg, title: "PHP"},{img: reactImg, title: "REACTJS"},{img: nodejsImg, title: "NODEJS"},{img: bootstrapImg, title: "BOOTSTRAP"}],
-    [{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"}],
+    [{img: figmaImg, title: "FIGMA"},{img: mysqlImg, title: "MYSQL"},{img: wordpressImg, title: "WORDPRESS"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"},{img: htmlImg, title: "HTML"}],
   ]
 
   const [slider, setSlider] = useState(null);
