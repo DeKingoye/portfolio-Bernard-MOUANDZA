@@ -19,7 +19,7 @@ function Navbar(props) {
             name: 'fa-brands fa-linkedin-in'
         }, 
         {
-            to: "#", 
+            to: "./../../assets/img/Bernard_MOUANDZA_CV_CTO.pdf", 
             name: 'fa-solid fa-file-pdf'
         }
     ]
@@ -39,7 +39,7 @@ function Navbar(props) {
         <div className="social__network">
             {
                 icons.map((item, i)=>(
-                    <Link to={{ pathname: item.to}} target="_blank" key={i}><i className={""+item.name}></i></Link>
+                    <a href={item.to} target="_blank" key={i}><i className={""+item.name}></i></a>
                 ))
             }
         </div>
