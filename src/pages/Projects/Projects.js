@@ -11,7 +11,7 @@ function Projects() {
     {
       title:"CINETIC",
       image:'https://img-19.commentcamarche.net/Z9e4GjGDv9VdlRndhmvEqFsbk3Y=/480x270/smart/6246fc94bad94dda9c611a1fdc87dd76/ccmcms-commentcamarche/23887428.jpg',
-      link: "#"
+      link: "http://cinetic.epizy.com/?p=sign-in"
     },
     {
       title:"FACE",
