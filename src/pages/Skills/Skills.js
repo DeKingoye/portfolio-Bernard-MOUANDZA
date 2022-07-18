@@ -20,7 +20,7 @@ function Skills() {
   const knowleges = [
     {title:"DEVELOPPEMENT" , items : ["Creation des web app", "Developpement front-end", "Développement back-end"]},
     {title:"GRAPHIQUE DESIGN" , items : ["UI/UX", "Illustration", "DESIGN"]},
-    {title:"PROJETS" , items : ["javascript", "ReactJs VueJs TypeJs", "mysql Php MongoDB"]}
+    {title:"PROJETS" , items : ["Site e-commerce", "Cinetic", "To-do-List..."]}
   ];
 
   const tools = [
