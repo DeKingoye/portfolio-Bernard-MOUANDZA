@@ -28,17 +28,6 @@ function Projects() {
       image:'https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Ffac.2F2020.2F08.2F10.2F5aeb6c6e-fdc1-44cd-8cb3-afbde82c28c4.2Ejpeg/1200x1200/quality/80/crop-from/center/tout-savoir-sur-la-calculatrice.jpeg',
       link: "https://bernardcalculatrice.netlify.app/"
     },
-    {
-      title:"face",
-      image:'https://i.postimg.cc/RhYnBf5m/er-slider.jpg',
-      link: "#"
-    },
-    {
-      title:"face",
-      image:'https://i.postimg.cc/RhYnBf5m/er-slider.jpg',
-      link: "#"
-    },
-  
   ];
 
   return (
