@@ -15,6 +15,7 @@ import bootstrapImg from './../../assets/img/bootstrap.png'
 import figmaImg from './../../assets/img/figma.png'
 import wordpressImg from './../../assets/img/wordpress.png'
 import sassImg from './../../assets/img/sass.png'
+import vuejsImg from './../../assets/img/vuejs.png'
 
 function Skills() {
   const knowleges = [
@@ -25,7 +26,7 @@ function Skills() {
 
   const tools = [
     [{img: htmlImg, title: "HTML"},{img: cssImg, title: "CSS"},{img: jsImg, title: "JAVASCRIPT"},{img: phpImg, title: "PHP"},{img: reactImg, title: "REACTJS"},{img: nodejsImg, title: "NODEJS"},{img: bootstrapImg, title: "BOOTSTRAP"}],
-    [{img: figmaImg, title: "FIGMA"},{img: mysqlImg, title: "MYSQL"},{img: wordpressImg, title: "WORDPRESS"},{img: sassImg, title: "SASS"}],
+    [{img: figmaImg, title: "FIGMA"},{img: mysqlImg, title: "MYSQL"},{img: wordpressImg, title: "WORDPRESS"},{img: sassImg, title: "SASS"},{img: vuejsImg, title: "VUEJS"}],
   ]
 
   const [slider, setSlider] = useState(null);
