@@ -16,7 +16,7 @@ function Projects() {
     {
       title:"Site-e-commerce",
       image:'https://www.netenvie.com/contenus/images/blog/partage/point-forts-site-ecommerce-xl.jpg',
-      link: "https://bernardsiteecommerce.netlify.app/"
+      link: ""
     },
     {
       title:"KOY",
