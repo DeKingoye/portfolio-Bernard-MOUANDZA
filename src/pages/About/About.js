@@ -46,7 +46,7 @@ function About() {
         <div className="col-sm-7 col-12 container__quality">
           <p className="text-justify">
           Je suis à la recherche d'une alternance
-          dès le mois de septembre pour mes deux ans en MASTERE CTO et TECH Lead à HETIC.
+          à partir du mois de septembre pour mes deux ans en MASTERE CTO et TECH Lead à HETIC.
           Mon objectif à terme est de devenir 
           un expert en développement, capable de participer à toutes 
           les étapes du cycle de vie d’un projet.
